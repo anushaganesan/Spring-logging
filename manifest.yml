@@ -1,0 +1,9 @@
+applications:
+- name: spring-boot-logging
+  disk_quota: 1G
+  instances: 1
+  memory: 1G
+  path: target/spring-boot-logging.jar
+  routes:
+  - route: spring-boot-logging-surprised-wallaby-mw.cfapps.io
+  stack: cflinuxfs3
