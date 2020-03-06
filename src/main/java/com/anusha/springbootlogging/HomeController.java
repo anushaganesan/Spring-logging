@@ -16,7 +16,7 @@ public class HomeController {
    @GetMapping
     public String home(){
 
-	   logger.trace("All good");
+	   logger.trace("All good dev changes");
         return "Hello Logging";
     }
 
